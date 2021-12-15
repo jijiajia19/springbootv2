@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: sbv2
+
+  main:
+    web-application-type: none
+
+context:
+  listener:
+    classes: com.jacle.springbootv2.springbootv2.listener.MyApplicationListener
