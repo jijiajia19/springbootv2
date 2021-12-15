@@ -13,12 +13,16 @@ import org.springframework.stereotype.Component;
 @Component
 public class Domain implements InitializingBean
 {
+    //读取不到就会显示unkown,指定标定的数值
     @Value("${type:unkown}")
     private String typename;
+
+    @Value("${age:unkown}")
+    private String age;
 
     @Override
     public void afterPropertiesSet() throws Exception
     {
-        System.out.println(this.getClass().getName()+"bean注入完成,"+typename);
+        System.out.println(this.getClass().getName()+"bean注入完成,"+typename+","+age);
     }
 }

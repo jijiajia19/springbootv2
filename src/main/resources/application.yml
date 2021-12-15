@@ -5,6 +5,11 @@ spring:
   main:
     web-application-type: none
 
+  #指定使用那个配置文件
+  profiles:
+    active: dev
+
 context:
   listener:
     classes: com.jacle.springbootv2.springbootv2.listener.MyApplicationListener
+
