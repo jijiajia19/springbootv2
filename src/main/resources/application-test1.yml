@@ -1,1 +1,7 @@
 age32: 32
+
+zhbin1:
+  config:
+    wconfigs:
+      name: Java旅途-1
+      age: 260

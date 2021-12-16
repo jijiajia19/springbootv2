@@ -12,4 +12,10 @@ class Springbootv2ApplicationTests
 	{
 	}
 
+	@Test
+	public void testProperties()
+	{
+
+	}
+
 }

@@ -2,7 +2,7 @@ package com.jacle.springbootv2.springbootv2.domain;
 
 import org.springframework.beans.factory.InitializingBean;
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.stereotype.Component;
+import org.springframework.context.annotation.Configuration;
 
 /**
  * @author jacle
@@ -10,19 +10,21 @@ import org.springframework.stereotype.Component;
  * @description: 某个类注入之后立刻执行某个操作
  * @date 12/15/2021 4:45 PM
  */
-@Component
+// @Component
+// 这个也有component的作用
+@Configuration
 public class Domain implements InitializingBean
 {
-    //读取不到就会显示unkown,指定标定的数值
-    @Value("${type:unkown}")
-    private String typename;
+	// 读取不到就会显示unkown,指定标定的数值
+	@Value("${type:unkown}")
+	private String typename;
 
-    @Value("${age:unkown}")
-    private String age;
+	@Value("${age:unkown}")
+	private String age;
 
-    @Override
-    public void afterPropertiesSet() throws Exception
-    {
-        System.out.println(this.getClass().getName()+"bean注入完成,"+typename+","+age);
-    }
+	@Override
+	public void afterPropertiesSet() throws Exception
+	{
+		System.out.println(this.getClass().getName() + "bean注入完成," + typename + "," + age);
+	}
 }
