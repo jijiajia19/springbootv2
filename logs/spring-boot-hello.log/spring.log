@@ -1,0 +1,14 @@
+2021-12-16 16:14:24.583  INFO 12000 --- [main] c.j.s.s.Springbootv2Application          : Starting Springbootv2Application using Java 1.8.0_251 on LAPTOP-E7KID4A9 with PID 12000 (D:\codePalace\springbootv2\target\classes started by jacle in D:\codePalace\springbootv2)
+2021-12-16 16:14:24.589  INFO 12000 --- [main] c.j.s.s.Springbootv2Application          : The following profiles are active: test
+2021-12-16 16:14:25.901  INFO 12000 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8088 (http)
+2021-12-16 16:14:25.913  INFO 12000 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-12-16 16:14:25.913  INFO 12000 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2021-12-16 16:14:26.048  INFO 12000 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/spv2]   : Initializing Spring embedded WebApplicationContext
+2021-12-16 16:14:26.049  INFO 12000 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1388 ms
+2021-12-16 16:14:26.243  INFO 12000 --- [main] c.j.s.s.postconstruct.ComponentOne       : ComponentOne 初始化完成
+2021-12-16 16:14:26.244  INFO 12000 --- [main] c.j.s.s.postconstruct.ComponentOne       : ComponentOne 模拟耗时逻辑开始
+2021-12-16 16:14:31.245  INFO 12000 --- [main] c.j.s.s.postconstruct.ComponentOne       : ComponentOne 模拟耗时逻辑完成
+2021-12-16 16:14:31.246  INFO 12000 --- [main] c.j.s.s.postconstruct.ComponentTwo       : ComponentTwo 初始化完成
+2021-12-16 16:14:31.247  INFO 12000 --- [main] c.j.s.s.postconstruct.ComponentTwo       : ComponentTwo 初始化完成后处理
+2021-12-16 16:14:31.615  INFO 12000 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8088 (http) with context path '/spv2'
+2021-12-16 16:14:31.626  INFO 12000 --- [main] c.j.s.s.Springbootv2Application          : Started Springbootv2Application in 7.766 seconds (JVM running for 9.028)

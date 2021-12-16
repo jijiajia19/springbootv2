@@ -3,7 +3,9 @@ spring:
     name: sbv2
 
   main:
-    web-application-type: none
+    #关闭banner
+    banner-mode: "off"
+ #   web-application-type: none
 
   #指定使用那个配置文件
   profiles:
@@ -13,3 +15,13 @@ context:
   listener:
     classes: com.jacle.springbootv2.springbootv2.listener.MyApplicationListener
 
+server:
+  port: 8088
+  servlet:
+    context-path: /spv2
+
+#logback日志配置
+logging:
+  file:
+    path: ./logs/spring-boot-hello.log
+    level.org.springframework.web: DEBUG

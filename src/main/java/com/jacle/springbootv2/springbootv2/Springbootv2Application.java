@@ -9,7 +9,6 @@ public class Springbootv2Application
 
 	public static void main(String[] args)
 	{
-
 		SpringApplication.run(Springbootv2Application.class, args);
 	}
 
