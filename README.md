@@ -46,7 +46,10 @@
        - 多个CommandLineRunner 执行顺序问题
        
 9、spring的自动配置
-   
+     Spring Boot启动的时候会通过@EnableAutoConfiguration注解找到META-INF/spring.factories配置文件中的所有自动配置类，并对其进行加载；
+   而这些自动配置类都是以AutoConfiguration结尾来命名的。它们实际上就是一个JavaConfig形式的Spring容器配置类，
+   这些配置类通过寻找以Properties结尾命名的类，进而取得在全局配置文件中配置的属性，如：server.port。
+   然后XxxProperties类再通过@ConfigurationProperties注解与全局配置文件中对应的属性进行绑定。
         
  
         
