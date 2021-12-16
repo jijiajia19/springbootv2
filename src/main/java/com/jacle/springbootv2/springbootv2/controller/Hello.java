@@ -9,13 +9,13 @@ import org.springframework.web.bind.annotation.RestController;
  * @description: 基本接口
  * @date 12/16/2021 4:09 PM
  */
-//这里不需要添加@controller注解
+// 这里不需要添加@controller注解
 @RestController
 public class Hello
 {
-    @GetMapping("/hello")
-    public String helo()
-    {
-        return "你好,hello";
-    }
+	@GetMapping("/hello")
+	public String helo()
+	{
+		return "你好,hello,修改之后查看是否热部署成功!--livereload added test second times";
+	}
 }

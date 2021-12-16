@@ -10,6 +10,7 @@ public class Springbootv2Application
 
 	public static void main(String[] args)
 	{
+//		System.setProperty("spring.devtools.restart.enabled", "false");
 		SpringApplication.run(Springbootv2Application.class, args);
 	}
 
