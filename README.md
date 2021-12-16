@@ -44,6 +44,9 @@
        - ApplicationRunner与CommandLineRunner谁先执行
        - 两者的区别在哪
        - 多个CommandLineRunner 执行顺序问题
+       
+9、spring的自动配置
+   
         
  
         
