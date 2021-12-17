@@ -1,220 +1,181 @@
-2021-12-16 16:14:24.583  INFO 12000 --- [main] c.j.s.s.Springbootv2Application          : Starting Springbootv2Application using Java 1.8.0_251 on LAPTOP-E7KID4A9 with PID 12000 (D:\codePalace\springbootv2\target\classes started by jacle in D:\codePalace\springbootv2)
-2021-12-16 16:14:24.589  INFO 12000 --- [main] c.j.s.s.Springbootv2Application          : The following profiles are active: test
-2021-12-16 16:14:25.901  INFO 12000 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8088 (http)
-2021-12-16 16:14:25.913  INFO 12000 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2021-12-16 16:14:25.913  INFO 12000 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
-2021-12-16 16:14:26.048  INFO 12000 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/spv2]   : Initializing Spring embedded WebApplicationContext
-2021-12-16 16:14:26.049  INFO 12000 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1388 ms
-2021-12-16 16:14:26.243  INFO 12000 --- [main] c.j.s.s.postconstruct.ComponentOne       : ComponentOne 初始化完成
-2021-12-16 16:14:26.244  INFO 12000 --- [main] c.j.s.s.postconstruct.ComponentOne       : ComponentOne 模拟耗时逻辑开始
-2021-12-16 16:14:31.245  INFO 12000 --- [main] c.j.s.s.postconstruct.ComponentOne       : ComponentOne 模拟耗时逻辑完成
-2021-12-16 16:14:31.246  INFO 12000 --- [main] c.j.s.s.postconstruct.ComponentTwo       : ComponentTwo 初始化完成
-2021-12-16 16:14:31.247  INFO 12000 --- [main] c.j.s.s.postconstruct.ComponentTwo       : ComponentTwo 初始化完成后处理
-2021-12-16 16:14:31.615  INFO 12000 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8088 (http) with context path '/spv2'
-2021-12-16 16:14:31.626  INFO 12000 --- [main] c.j.s.s.Springbootv2Application          : Started Springbootv2Application in 7.766 seconds (JVM running for 9.028)
-2021-12-16 17:02:21.614  INFO 17760 --- [main] c.j.s.s.Springbootv2Application          : Starting Springbootv2Application using Java 1.8.0_251 on LAPTOP-E7KID4A9 with PID 17760 (D:\codePalace\springbootv2\target\classes started by jacle in D:\codePalace\springbootv2)
-2021-12-16 17:02:21.618  INFO 17760 --- [main] c.j.s.s.Springbootv2Application          : The following profiles are active: test
-2021-12-16 17:02:23.164  INFO 17760 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8088 (http)
-2021-12-16 17:02:23.177  INFO 17760 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2021-12-16 17:02:23.178  INFO 17760 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
-2021-12-16 17:02:23.308  INFO 17760 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/spv2]   : Initializing Spring embedded WebApplicationContext
-2021-12-16 17:02:23.309  INFO 17760 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1634 ms
-2021-12-16 17:02:23.488  INFO 17760 --- [main] c.j.s.s.postconstruct.ComponentOne       : ComponentOne 初始化完成
-2021-12-16 17:02:23.488  INFO 17760 --- [main] c.j.s.s.postconstruct.ComponentOne       : ComponentOne 模拟耗时逻辑开始
-2021-12-16 17:02:28.501  INFO 17760 --- [main] c.j.s.s.postconstruct.ComponentOne       : ComponentOne 模拟耗时逻辑完成
-2021-12-16 17:02:28.502  INFO 17760 --- [main] c.j.s.s.postconstruct.ComponentTwo       : ComponentTwo 初始化完成
-2021-12-16 17:02:28.502  INFO 17760 --- [main] c.j.s.s.postconstruct.ComponentTwo       : ComponentTwo 初始化完成后处理
-2021-12-16 17:02:28.887  INFO 17760 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8088 (http) with context path '/spv2'
-2021-12-16 17:02:28.897  INFO 17760 --- [main] c.j.s.s.Springbootv2Application          : Started Springbootv2Application in 8.083 seconds (JVM running for 9.58)
-2021-12-16 17:05:05.351  INFO 22404 --- [restartedMain] c.j.s.s.Springbootv2Application          : Starting Springbootv2Application using Java 1.8.0_251 on LAPTOP-E7KID4A9 with PID 22404 (D:\codePalace\springbootv2\target\classes started by jacle in D:\codePalace\springbootv2)
-2021-12-16 17:05:05.352  INFO 22404 --- [restartedMain] c.j.s.s.Springbootv2Application          : The following profiles are active: test
-2021-12-16 17:05:05.446  INFO 22404 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2021-12-16 17:05:05.446  INFO 22404 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2021-12-16 17:05:07.630  INFO 22404 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8088 (http)
-2021-12-16 17:05:07.646  INFO 22404 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2021-12-16 17:05:07.647  INFO 22404 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
-2021-12-16 17:05:07.813  INFO 22404 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/spv2]   : Initializing Spring embedded WebApplicationContext
-2021-12-16 17:05:07.814  INFO 22404 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2367 ms
-2021-12-16 17:05:08.092  INFO 22404 --- [restartedMain] c.j.s.s.postconstruct.ComponentOne       : ComponentOne 初始化完成
-2021-12-16 17:05:08.100  INFO 22404 --- [restartedMain] c.j.s.s.postconstruct.ComponentOne       : ComponentOne 模拟耗时逻辑开始
-2021-12-16 17:05:13.102  INFO 22404 --- [restartedMain] c.j.s.s.postconstruct.ComponentOne       : ComponentOne 模拟耗时逻辑完成
-2021-12-16 17:05:13.103  INFO 22404 --- [restartedMain] c.j.s.s.postconstruct.ComponentTwo       : ComponentTwo 初始化完成
-2021-12-16 17:05:13.104  INFO 22404 --- [restartedMain] c.j.s.s.postconstruct.ComponentTwo       : ComponentTwo 初始化完成后处理
-2021-12-16 17:05:13.499  INFO 22404 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2021-12-16 17:05:13.536  INFO 22404 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8088 (http) with context path '/spv2'
-2021-12-16 17:05:13.548  INFO 22404 --- [restartedMain] c.j.s.s.Springbootv2Application          : Started Springbootv2Application in 9.162 seconds (JVM running for 10.932)
-2021-12-16 17:06:23.966  INFO 22404 --- [restartedMain] c.j.s.s.Springbootv2Application          : Starting Springbootv2Application using Java 1.8.0_251 on LAPTOP-E7KID4A9 with PID 22404 (D:\codePalace\springbootv2\target\classes started by jacle in D:\codePalace\springbootv2)
-2021-12-16 17:06:23.966  INFO 22404 --- [restartedMain] c.j.s.s.Springbootv2Application          : The following profiles are active: test
-2021-12-16 17:06:24.535  INFO 22404 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8088 (http)
-2021-12-16 17:06:24.536  INFO 22404 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2021-12-16 17:06:24.537  INFO 22404 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
-2021-12-16 17:06:24.581  INFO 22404 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/spv2]   : Initializing Spring embedded WebApplicationContext
-2021-12-16 17:06:24.582  INFO 22404 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 611 ms
-2021-12-16 17:06:24.630  INFO 22404 --- [restartedMain] c.j.s.s.postconstruct.ComponentOne       : ComponentOne 初始化完成
-2021-12-16 17:06:24.631  INFO 22404 --- [restartedMain] c.j.s.s.postconstruct.ComponentOne       : ComponentOne 模拟耗时逻辑开始
-2021-12-16 17:06:29.637  INFO 22404 --- [restartedMain] c.j.s.s.postconstruct.ComponentOne       : ComponentOne 模拟耗时逻辑完成
-2021-12-16 17:06:29.638  INFO 22404 --- [restartedMain] c.j.s.s.postconstruct.ComponentTwo       : ComponentTwo 初始化完成
-2021-12-16 17:06:29.638  INFO 22404 --- [restartedMain] c.j.s.s.postconstruct.ComponentTwo       : ComponentTwo 初始化完成后处理
-2021-12-16 17:06:29.728  INFO 22404 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2021-12-16 17:06:29.740  INFO 22404 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8088 (http) with context path '/spv2'
-2021-12-16 17:06:29.744  INFO 22404 --- [restartedMain] c.j.s.s.Springbootv2Application          : Started Springbootv2Application in 5.865 seconds (JVM running for 87.128)
-2021-12-16 17:06:29.747  INFO 22404 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2021-12-16 17:06:29.843  INFO 22404 --- [http-nio-8088-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/spv2]   : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2021-12-16 17:06:29.844  INFO 22404 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2021-12-16 17:06:29.845  INFO 22404 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2021-12-16 17:06:31.827  INFO 22404 --- [restartedMain] c.j.s.s.Springbootv2Application          : Starting Springbootv2Application using Java 1.8.0_251 on LAPTOP-E7KID4A9 with PID 22404 (D:\codePalace\springbootv2\target\classes started by jacle in D:\codePalace\springbootv2)
-2021-12-16 17:06:31.827  INFO 22404 --- [restartedMain] c.j.s.s.Springbootv2Application          : The following profiles are active: test
-2021-12-16 17:06:32.115  INFO 22404 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8088 (http)
-2021-12-16 17:06:32.116  INFO 22404 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2021-12-16 17:06:32.116  INFO 22404 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
-2021-12-16 17:06:32.158  INFO 22404 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/spv2]   : Initializing Spring embedded WebApplicationContext
-2021-12-16 17:06:32.159  INFO 22404 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 328 ms
-2021-12-16 17:06:32.200  INFO 22404 --- [restartedMain] c.j.s.s.postconstruct.ComponentOne       : ComponentOne 初始化完成
-2021-12-16 17:06:32.200  INFO 22404 --- [restartedMain] c.j.s.s.postconstruct.ComponentOne       : ComponentOne 模拟耗时逻辑开始
-2021-12-16 17:06:37.216  INFO 22404 --- [restartedMain] c.j.s.s.postconstruct.ComponentOne       : ComponentOne 模拟耗时逻辑完成
-2021-12-16 17:06:37.217  INFO 22404 --- [restartedMain] c.j.s.s.postconstruct.ComponentTwo       : ComponentTwo 初始化完成
-2021-12-16 17:06:37.218  INFO 22404 --- [restartedMain] c.j.s.s.postconstruct.ComponentTwo       : ComponentTwo 初始化完成后处理
-2021-12-16 17:06:37.328  INFO 22404 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2021-12-16 17:06:37.341  INFO 22404 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8088 (http) with context path '/spv2'
-2021-12-16 17:06:37.346  INFO 22404 --- [restartedMain] c.j.s.s.Springbootv2Application          : Started Springbootv2Application in 5.568 seconds (JVM running for 94.729)
-2021-12-16 17:06:37.348  INFO 22404 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2021-12-16 17:07:17.574  INFO 22404 --- [http-nio-8088-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/spv2]   : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2021-12-16 17:07:17.575  INFO 22404 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2021-12-16 17:07:17.576  INFO 22404 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
-2021-12-16 17:09:35.671  INFO 22404 --- [restartedMain] c.j.s.s.Springbootv2Application          : Starting Springbootv2Application using Java 1.8.0_251 on LAPTOP-E7KID4A9 with PID 22404 (D:\codePalace\springbootv2\target\classes started by jacle in D:\codePalace\springbootv2)
-2021-12-16 17:09:35.671  INFO 22404 --- [restartedMain] c.j.s.s.Springbootv2Application          : The following profiles are active: test
-2021-12-16 17:09:36.077  INFO 22404 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8088 (http)
-2021-12-16 17:09:36.078  INFO 22404 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2021-12-16 17:09:36.078  INFO 22404 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
-2021-12-16 17:09:36.115  INFO 22404 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/spv2]   : Initializing Spring embedded WebApplicationContext
-2021-12-16 17:09:36.115  INFO 22404 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 439 ms
-2021-12-16 17:09:36.156  INFO 22404 --- [restartedMain] c.j.s.s.postconstruct.ComponentOne       : ComponentOne 初始化完成
-2021-12-16 17:09:36.156  INFO 22404 --- [restartedMain] c.j.s.s.postconstruct.ComponentOne       : ComponentOne 模拟耗时逻辑开始
-2021-12-16 17:09:41.165  INFO 22404 --- [restartedMain] c.j.s.s.postconstruct.ComponentOne       : ComponentOne 模拟耗时逻辑完成
-2021-12-16 17:09:41.165  INFO 22404 --- [restartedMain] c.j.s.s.postconstruct.ComponentTwo       : ComponentTwo 初始化完成
-2021-12-16 17:09:41.166  INFO 22404 --- [restartedMain] c.j.s.s.postconstruct.ComponentTwo       : ComponentTwo 初始化完成后处理
-2021-12-16 17:09:41.252  INFO 22404 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2021-12-16 17:09:41.266  INFO 22404 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8088 (http) with context path '/spv2'
-2021-12-16 17:09:41.271  INFO 22404 --- [restartedMain] c.j.s.s.Springbootv2Application          : Started Springbootv2Application in 5.659 seconds (JVM running for 278.655)
-2021-12-16 17:09:41.274  INFO 22404 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2021-12-16 17:09:41.611  INFO 22404 --- [http-nio-8088-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/spv2]   : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2021-12-16 17:09:41.611  INFO 22404 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2021-12-16 17:09:41.612  INFO 22404 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2021-12-16 17:12:31.268  INFO 22404 --- [restartedMain] c.j.s.s.Springbootv2Application          : Starting Springbootv2Application using Java 1.8.0_251 on LAPTOP-E7KID4A9 with PID 22404 (D:\codePalace\springbootv2\target\classes started by jacle in D:\codePalace\springbootv2)
-2021-12-16 17:12:31.268  INFO 22404 --- [restartedMain] c.j.s.s.Springbootv2Application          : The following profiles are active: test
-2021-12-16 17:12:31.671  INFO 22404 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8088 (http)
-2021-12-16 17:12:31.671  INFO 22404 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2021-12-16 17:12:31.672  INFO 22404 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
-2021-12-16 17:12:31.716  INFO 22404 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/spv2]   : Initializing Spring embedded WebApplicationContext
-2021-12-16 17:12:31.717  INFO 22404 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 446 ms
-2021-12-16 17:12:31.774  INFO 22404 --- [restartedMain] c.j.s.s.postconstruct.ComponentOne       : ComponentOne 初始化完成
-2021-12-16 17:12:31.775  INFO 22404 --- [restartedMain] c.j.s.s.postconstruct.ComponentOne       : ComponentOne 模拟耗时逻辑开始
-2021-12-16 17:12:36.788  INFO 22404 --- [restartedMain] c.j.s.s.postconstruct.ComponentOne       : ComponentOne 模拟耗时逻辑完成
-2021-12-16 17:12:36.789  INFO 22404 --- [restartedMain] c.j.s.s.postconstruct.ComponentTwo       : ComponentTwo 初始化完成
-2021-12-16 17:12:36.789  INFO 22404 --- [restartedMain] c.j.s.s.postconstruct.ComponentTwo       : ComponentTwo 初始化完成后处理
-2021-12-16 17:12:36.849  INFO 22404 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2021-12-16 17:12:36.858  INFO 22404 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8088 (http) with context path '/spv2'
-2021-12-16 17:12:36.863  INFO 22404 --- [restartedMain] c.j.s.s.Springbootv2Application          : Started Springbootv2Application in 5.645 seconds (JVM running for 454.247)
-2021-12-16 17:12:36.865  INFO 22404 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2021-12-16 17:14:06.603  INFO 22404 --- [http-nio-8088-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/spv2]   : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2021-12-16 17:14:06.604  INFO 22404 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2021-12-16 17:14:06.605  INFO 22404 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2021-12-16 17:14:07.734  INFO 22404 --- [restartedMain] c.j.s.s.Springbootv2Application          : Starting Springbootv2Application using Java 1.8.0_251 on LAPTOP-E7KID4A9 with PID 22404 (D:\codePalace\springbootv2\target\classes started by jacle in D:\codePalace\springbootv2)
-2021-12-16 17:14:07.734  INFO 22404 --- [restartedMain] c.j.s.s.Springbootv2Application          : The following profiles are active: test
-2021-12-16 17:14:08.092  INFO 22404 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8088 (http)
-2021-12-16 17:14:08.093  INFO 22404 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2021-12-16 17:14:08.093  INFO 22404 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
-2021-12-16 17:14:08.133  INFO 22404 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/spv2]   : Initializing Spring embedded WebApplicationContext
-2021-12-16 17:14:08.133  INFO 22404 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 396 ms
-2021-12-16 17:14:08.174  INFO 22404 --- [restartedMain] c.j.s.s.postconstruct.ComponentOne       : ComponentOne 初始化完成
-2021-12-16 17:14:08.175  INFO 22404 --- [restartedMain] c.j.s.s.postconstruct.ComponentOne       : ComponentOne 模拟耗时逻辑开始
-2021-12-16 17:14:13.180  INFO 22404 --- [restartedMain] c.j.s.s.postconstruct.ComponentOne       : ComponentOne 模拟耗时逻辑完成
-2021-12-16 17:14:13.181  INFO 22404 --- [restartedMain] c.j.s.s.postconstruct.ComponentTwo       : ComponentTwo 初始化完成
-2021-12-16 17:14:13.181  INFO 22404 --- [restartedMain] c.j.s.s.postconstruct.ComponentTwo       : ComponentTwo 初始化完成后处理
-2021-12-16 17:14:13.265  INFO 22404 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2021-12-16 17:14:13.277  INFO 22404 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8088 (http) with context path '/spv2'
-2021-12-16 17:14:13.280  INFO 22404 --- [restartedMain] c.j.s.s.Springbootv2Application          : Started Springbootv2Application in 5.594 seconds (JVM running for 550.664)
-2021-12-16 17:14:13.283  INFO 22404 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2021-12-16 17:14:15.285  INFO 22404 --- [restartedMain] c.j.s.s.Springbootv2Application          : Starting Springbootv2Application using Java 1.8.0_251 on LAPTOP-E7KID4A9 with PID 22404 (D:\codePalace\springbootv2\target\classes started by jacle in D:\codePalace\springbootv2)
-2021-12-16 17:14:15.286  INFO 22404 --- [restartedMain] c.j.s.s.Springbootv2Application          : The following profiles are active: test
-2021-12-16 17:14:15.565  INFO 22404 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8088 (http)
-2021-12-16 17:14:15.566  INFO 22404 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2021-12-16 17:14:15.566  INFO 22404 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
-2021-12-16 17:14:15.601  INFO 22404 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/spv2]   : Initializing Spring embedded WebApplicationContext
-2021-12-16 17:14:15.601  INFO 22404 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 312 ms
-2021-12-16 17:14:15.634  INFO 22404 --- [restartedMain] c.j.s.s.postconstruct.ComponentOne       : ComponentOne 初始化完成
-2021-12-16 17:14:15.635  INFO 22404 --- [restartedMain] c.j.s.s.postconstruct.ComponentOne       : ComponentOne 模拟耗时逻辑开始
-2021-12-16 17:14:20.637  INFO 22404 --- [restartedMain] c.j.s.s.postconstruct.ComponentOne       : ComponentOne 模拟耗时逻辑完成
-2021-12-16 17:14:20.637  INFO 22404 --- [restartedMain] c.j.s.s.postconstruct.ComponentTwo       : ComponentTwo 初始化完成
-2021-12-16 17:14:20.638  INFO 22404 --- [restartedMain] c.j.s.s.postconstruct.ComponentTwo       : ComponentTwo 初始化完成后处理
-2021-12-16 17:14:20.720  INFO 22404 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2021-12-16 17:14:20.731  INFO 22404 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8088 (http) with context path '/spv2'
-2021-12-16 17:14:20.735  INFO 22404 --- [restartedMain] c.j.s.s.Springbootv2Application          : Started Springbootv2Application in 5.499 seconds (JVM running for 558.119)
-2021-12-16 17:14:20.737  INFO 22404 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2021-12-16 17:14:22.895  INFO 22404 --- [restartedMain] c.j.s.s.Springbootv2Application          : Starting Springbootv2Application using Java 1.8.0_251 on LAPTOP-E7KID4A9 with PID 22404 (D:\codePalace\springbootv2\target\classes started by jacle in D:\codePalace\springbootv2)
-2021-12-16 17:14:22.896  INFO 22404 --- [restartedMain] c.j.s.s.Springbootv2Application          : The following profiles are active: test
-2021-12-16 17:14:23.248  INFO 22404 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8088 (http)
-2021-12-16 17:14:23.249  INFO 22404 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2021-12-16 17:14:23.249  INFO 22404 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
-2021-12-16 17:14:23.301  INFO 22404 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/spv2]   : Initializing Spring embedded WebApplicationContext
-2021-12-16 17:14:23.302  INFO 22404 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 403 ms
-2021-12-16 17:14:23.334  INFO 22404 --- [restartedMain] c.j.s.s.postconstruct.ComponentOne       : ComponentOne 初始化完成
-2021-12-16 17:14:23.334  INFO 22404 --- [restartedMain] c.j.s.s.postconstruct.ComponentOne       : ComponentOne 模拟耗时逻辑开始
-2021-12-16 17:14:28.347  INFO 22404 --- [restartedMain] c.j.s.s.postconstruct.ComponentOne       : ComponentOne 模拟耗时逻辑完成
-2021-12-16 17:14:28.348  INFO 22404 --- [restartedMain] c.j.s.s.postconstruct.ComponentTwo       : ComponentTwo 初始化完成
-2021-12-16 17:14:28.348  INFO 22404 --- [restartedMain] c.j.s.s.postconstruct.ComponentTwo       : ComponentTwo 初始化完成后处理
-2021-12-16 17:14:28.413  INFO 22404 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2021-12-16 17:14:28.422  INFO 22404 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8088 (http) with context path '/spv2'
-2021-12-16 17:14:28.425  INFO 22404 --- [restartedMain] c.j.s.s.Springbootv2Application          : Started Springbootv2Application in 5.583 seconds (JVM running for 565.809)
-2021-12-16 17:14:28.426  INFO 22404 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2021-12-16 17:14:28.491  INFO 22404 --- [http-nio-8088-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/spv2]   : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2021-12-16 17:14:28.491  INFO 22404 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2021-12-16 17:14:28.492  INFO 22404 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2021-12-16 17:14:38.180  INFO 4716 --- [restartedMain] c.j.s.s.Springbootv2Application          : Starting Springbootv2Application using Java 1.8.0_251 on LAPTOP-E7KID4A9 with PID 4716 (D:\codePalace\springbootv2\target\classes started by jacle in D:\codePalace\springbootv2)
-2021-12-16 17:14:38.181  INFO 4716 --- [restartedMain] c.j.s.s.Springbootv2Application          : The following profiles are active: test
-2021-12-16 17:14:38.276  INFO 4716 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2021-12-16 17:14:38.277  INFO 4716 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2021-12-16 17:14:39.924  INFO 4716 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8088 (http)
-2021-12-16 17:14:39.942  INFO 4716 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2021-12-16 17:14:39.943  INFO 4716 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
-2021-12-16 17:14:40.086  INFO 4716 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/spv2]   : Initializing Spring embedded WebApplicationContext
-2021-12-16 17:14:40.087  INFO 4716 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1809 ms
-2021-12-16 17:14:40.325  INFO 4716 --- [restartedMain] c.j.s.s.postconstruct.ComponentOne       : ComponentOne 初始化完成
-2021-12-16 17:14:40.326  INFO 4716 --- [restartedMain] c.j.s.s.postconstruct.ComponentOne       : ComponentOne 模拟耗时逻辑开始
-2021-12-16 17:14:45.341  INFO 4716 --- [restartedMain] c.j.s.s.postconstruct.ComponentOne       : ComponentOne 模拟耗时逻辑完成
-2021-12-16 17:14:45.342  INFO 4716 --- [restartedMain] c.j.s.s.postconstruct.ComponentTwo       : ComponentTwo 初始化完成
-2021-12-16 17:14:45.344  INFO 4716 --- [restartedMain] c.j.s.s.postconstruct.ComponentTwo       : ComponentTwo 初始化完成后处理
-2021-12-16 17:14:45.728  INFO 4716 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35769
-2021-12-16 17:14:45.854  INFO 4716 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8088 (http) with context path '/spv2'
-2021-12-16 17:14:45.870  INFO 4716 --- [restartedMain] c.j.s.s.Springbootv2Application          : Started Springbootv2Application in 8.519 seconds (JVM running for 10.241)
-2021-12-16 17:14:45.926  INFO 4716 --- [http-nio-8088-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/spv2]   : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2021-12-16 17:14:45.927  INFO 4716 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2021-12-16 17:14:45.928  INFO 4716 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2021-12-16 17:15:25.402  INFO 4716 --- [restartedMain] c.j.s.s.Springbootv2Application          : Starting Springbootv2Application using Java 1.8.0_251 on LAPTOP-E7KID4A9 with PID 4716 (D:\codePalace\springbootv2\target\classes started by jacle in D:\codePalace\springbootv2)
-2021-12-16 17:15:25.402  INFO 4716 --- [restartedMain] c.j.s.s.Springbootv2Application          : The following profiles are active: test
-2021-12-16 17:15:25.843  INFO 4716 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8088 (http)
-2021-12-16 17:15:25.844  INFO 4716 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2021-12-16 17:15:25.845  INFO 4716 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
-2021-12-16 17:15:25.902  INFO 4716 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/spv2]   : Initializing Spring embedded WebApplicationContext
-2021-12-16 17:15:25.902  INFO 4716 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 496 ms
-2021-12-16 17:15:25.948  INFO 4716 --- [restartedMain] c.j.s.s.postconstruct.ComponentOne       : ComponentOne 初始化完成
-2021-12-16 17:15:25.949  INFO 4716 --- [restartedMain] c.j.s.s.postconstruct.ComponentOne       : ComponentOne 模拟耗时逻辑开始
-2021-12-16 17:15:30.962  INFO 4716 --- [restartedMain] c.j.s.s.postconstruct.ComponentOne       : ComponentOne 模拟耗时逻辑完成
-2021-12-16 17:15:30.963  INFO 4716 --- [restartedMain] c.j.s.s.postconstruct.ComponentTwo       : ComponentTwo 初始化完成
-2021-12-16 17:15:30.963  INFO 4716 --- [restartedMain] c.j.s.s.postconstruct.ComponentTwo       : ComponentTwo 初始化完成后处理
-2021-12-16 17:15:31.072  INFO 4716 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35769
-2021-12-16 17:15:31.086  INFO 4716 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8088 (http) with context path '/spv2'
-2021-12-16 17:15:31.091  INFO 4716 --- [restartedMain] c.j.s.s.Springbootv2Application          : Started Springbootv2Application in 5.743 seconds (JVM running for 55.463)
-2021-12-16 17:15:31.094  INFO 4716 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2021-12-16 17:15:37.233  INFO 4716 --- [http-nio-8088-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/spv2]   : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2021-12-16 17:15:37.234  INFO 4716 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2021-12-16 17:15:37.235  INFO 4716 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
-2021-12-16 17:15:40.601  INFO 4716 --- [restartedMain] c.j.s.s.Springbootv2Application          : Starting Springbootv2Application using Java 1.8.0_251 on LAPTOP-E7KID4A9 with PID 4716 (D:\codePalace\springbootv2\target\classes started by jacle in D:\codePalace\springbootv2)
-2021-12-16 17:15:40.602  INFO 4716 --- [restartedMain] c.j.s.s.Springbootv2Application          : The following profiles are active: test
-2021-12-16 17:15:41.146  INFO 4716 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8088 (http)
-2021-12-16 17:15:41.151  INFO 4716 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2021-12-16 17:15:41.152  INFO 4716 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
-2021-12-16 17:15:41.218  INFO 4716 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/spv2]   : Initializing Spring embedded WebApplicationContext
-2021-12-16 17:15:41.218  INFO 4716 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 606 ms
-2021-12-16 17:15:41.261  INFO 4716 --- [restartedMain] c.j.s.s.postconstruct.ComponentOne       : ComponentOne 初始化完成
-2021-12-16 17:15:41.262  INFO 4716 --- [restartedMain] c.j.s.s.postconstruct.ComponentOne       : ComponentOne 模拟耗时逻辑开始
+2021-12-17 11:53:43.039  INFO 15100 --- [main] c.j.springbootv2.springbootv2.MockTest   : Starting MockTest using Java 1.8.0_251 on LAPTOP-E7KID4A9 with PID 15100 (started by jacle in D:\codePalace\springbootv2)
+2021-12-17 11:53:43.056  INFO 15100 --- [main] c.j.springbootv2.springbootv2.MockTest   : The following profiles are active: test
+2021-12-17 11:53:45.930  INFO 15100 --- [main] c.j.s.s.postconstruct.ComponentOne       : ComponentOne 初始化完成
+2021-12-17 11:53:45.933  INFO 15100 --- [main] c.j.s.s.postconstruct.ComponentOne       : ComponentOne 模拟耗时逻辑开始
+2021-12-17 11:53:50.939  INFO 15100 --- [main] c.j.s.s.postconstruct.ComponentOne       : ComponentOne 模拟耗时逻辑完成
+2021-12-17 11:53:50.940  INFO 15100 --- [main] c.j.s.s.postconstruct.ComponentTwo       : ComponentTwo 初始化完成
+2021-12-17 11:53:50.942  INFO 15100 --- [main] c.j.s.s.postconstruct.ComponentTwo       : ComponentTwo 初始化完成后处理
+2021-12-17 11:53:52.221  INFO 15100 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2021-12-17 11:53:52.222  INFO 15100 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2021-12-17 11:53:52.224  INFO 15100 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
+2021-12-17 11:53:52.259  INFO 15100 --- [main] c.j.springbootv2.springbootv2.MockTest   : Started MockTest in 10.201 seconds (JVM running for 11.794)
+2021-12-17 12:29:43.508  INFO 18332 --- [main] c.j.springbootv2.springbootv2.MockTest   : Starting MockTest using Java 1.8.0_251 on LAPTOP-E7KID4A9 with PID 18332 (started by jacle in D:\codePalace\springbootv2)
+2021-12-17 12:29:43.512  INFO 18332 --- [main] c.j.springbootv2.springbootv2.MockTest   : The following profiles are active: test
+2021-12-17 12:29:47.435  INFO 18332 --- [main] c.j.s.s.postconstruct.ComponentOne       : ComponentOne 初始化完成
+2021-12-17 12:29:47.439  INFO 18332 --- [main] c.j.s.s.postconstruct.ComponentOne       : ComponentOne 模拟耗时逻辑开始
+2021-12-17 12:29:52.490  INFO 18332 --- [main] c.j.s.s.postconstruct.ComponentOne       : ComponentOne 模拟耗时逻辑完成
+2021-12-17 12:29:52.491  INFO 18332 --- [main] c.j.s.s.postconstruct.ComponentTwo       : ComponentTwo 初始化完成
+2021-12-17 12:29:52.511  INFO 18332 --- [main] c.j.s.s.postconstruct.ComponentTwo       : ComponentTwo 初始化完成后处理
+2021-12-17 12:29:54.495  INFO 18332 --- [main] c.j.springbootv2.springbootv2.MockTest   : Started MockTest in 12.242 seconds (JVM running for 14.384)
+2021-12-17 12:30:44.009  INFO 17336 --- [main] c.j.springbootv2.springbootv2.MockTest   : Starting MockTest using Java 1.8.0_251 on LAPTOP-E7KID4A9 with PID 17336 (started by jacle in D:\codePalace\springbootv2)
+2021-12-17 12:30:44.012  INFO 17336 --- [main] c.j.springbootv2.springbootv2.MockTest   : The following profiles are active: test
+2021-12-17 12:30:47.397  INFO 17336 --- [main] c.j.s.s.postconstruct.ComponentOne       : ComponentOne 初始化完成
+2021-12-17 12:30:47.401  INFO 17336 --- [main] c.j.s.s.postconstruct.ComponentOne       : ComponentOne 模拟耗时逻辑开始
+2021-12-17 12:30:52.405  INFO 17336 --- [main] c.j.s.s.postconstruct.ComponentOne       : ComponentOne 模拟耗时逻辑完成
+2021-12-17 12:30:52.407  INFO 17336 --- [main] c.j.s.s.postconstruct.ComponentTwo       : ComponentTwo 初始化完成
+2021-12-17 12:30:52.412  INFO 17336 --- [main] c.j.s.s.postconstruct.ComponentTwo       : ComponentTwo 初始化完成后处理
+2021-12-17 12:30:54.332  INFO 17336 --- [main] c.j.springbootv2.springbootv2.MockTest   : Started MockTest in 11.336 seconds (JVM running for 13.267)
+2021-12-17 13:05:15.856  INFO 11084 --- [main] c.j.springbootv2.springbootv2.MockTest   : Starting MockTest using Java 1.8.0_251 on LAPTOP-E7KID4A9 with PID 11084 (started by jacle in D:\codePalace\springbootv2)
+2021-12-17 13:05:15.863  INFO 11084 --- [main] c.j.springbootv2.springbootv2.MockTest   : The following profiles are active: test
+2021-12-17 13:05:37.290  INFO 19204 --- [main] c.j.springbootv2.springbootv2.MockTest   : Starting MockTest using Java 1.8.0_251 on LAPTOP-E7KID4A9 with PID 19204 (started by jacle in D:\codePalace\springbootv2)
+2021-12-17 13:05:37.295  INFO 19204 --- [main] c.j.springbootv2.springbootv2.MockTest   : The following profiles are active: test
+2021-12-17 13:05:41.064  INFO 19204 --- [main] c.j.s.s.postconstruct.ComponentOne       : ComponentOne 初始化完成
+2021-12-17 13:05:41.072  INFO 19204 --- [main] c.j.s.s.postconstruct.ComponentOne       : ComponentOne 模拟耗时逻辑开始
+2021-12-17 13:05:46.114  INFO 19204 --- [main] c.j.s.s.postconstruct.ComponentOne       : ComponentOne 模拟耗时逻辑完成
+2021-12-17 13:05:46.115  INFO 19204 --- [main] c.j.s.s.postconstruct.ComponentTwo       : ComponentTwo 初始化完成
+2021-12-17 13:05:46.120  INFO 19204 --- [main] c.j.s.s.postconstruct.ComponentTwo       : ComponentTwo 初始化完成后处理
+2021-12-17 13:05:48.171  INFO 19204 --- [main] c.j.springbootv2.springbootv2.MockTest   : Started MockTest in 11.984 seconds (JVM running for 13.994)
+2021-12-17 13:12:28.493  INFO 17760 --- [main] c.j.springbootv2.springbootv2.MockTest   : Starting MockTest using Java 1.8.0_251 on LAPTOP-E7KID4A9 with PID 17760 (started by jacle in D:\codePalace\springbootv2)
+2021-12-17 13:12:28.497  INFO 17760 --- [main] c.j.springbootv2.springbootv2.MockTest   : The following profiles are active: test
+2021-12-17 13:12:30.977  INFO 17760 --- [main] c.j.s.s.postconstruct.ComponentOne       : ComponentOne 初始化完成
+2021-12-17 13:12:30.981  INFO 17760 --- [main] c.j.s.s.postconstruct.ComponentOne       : ComponentOne 模拟耗时逻辑开始
+2021-12-17 13:12:35.989  INFO 17760 --- [main] c.j.s.s.postconstruct.ComponentOne       : ComponentOne 模拟耗时逻辑完成
+2021-12-17 13:12:35.990  INFO 17760 --- [main] c.j.s.s.postconstruct.ComponentTwo       : ComponentTwo 初始化完成
+2021-12-17 13:12:35.994  INFO 17760 --- [main] c.j.s.s.postconstruct.ComponentTwo       : ComponentTwo 初始化完成后处理
+2021-12-17 13:12:37.946  INFO 17760 --- [main] c.j.springbootv2.springbootv2.MockTest   : Started MockTest in 10.487 seconds (JVM running for 12.49)
+2021-12-17 13:13:12.875  INFO 18968 --- [main] c.j.springbootv2.springbootv2.MockTest   : Starting MockTest using Java 1.8.0_251 on LAPTOP-E7KID4A9 with PID 18968 (started by jacle in D:\codePalace\springbootv2)
+2021-12-17 13:13:12.877  INFO 18968 --- [main] c.j.springbootv2.springbootv2.MockTest   : The following profiles are active: test
+2021-12-17 13:13:15.379  INFO 18968 --- [main] c.j.s.s.postconstruct.ComponentOne       : ComponentOne 初始化完成
+2021-12-17 13:13:15.384  INFO 18968 --- [main] c.j.s.s.postconstruct.ComponentOne       : ComponentOne 模拟耗时逻辑开始
+2021-12-17 13:13:20.388  INFO 18968 --- [main] c.j.s.s.postconstruct.ComponentOne       : ComponentOne 模拟耗时逻辑完成
+2021-12-17 13:13:20.389  INFO 18968 --- [main] c.j.s.s.postconstruct.ComponentTwo       : ComponentTwo 初始化完成
+2021-12-17 13:13:20.393  INFO 18968 --- [main] c.j.s.s.postconstruct.ComponentTwo       : ComponentTwo 初始化完成后处理
+2021-12-17 13:13:22.249  INFO 18968 --- [main] c.j.springbootv2.springbootv2.MockTest   : Started MockTest in 10.34 seconds (JVM running for 12.393)
+2021-12-17 13:30:02.526  INFO 13760 --- [main] c.j.springbootv2.springbootv2.MockTest   : Starting MockTest using Java 1.8.0_251 on LAPTOP-E7KID4A9 with PID 13760 (started by jacle in D:\codePalace\springbootv2)
+2021-12-17 13:30:02.531  INFO 13760 --- [main] c.j.springbootv2.springbootv2.MockTest   : The following profiles are active: test
+2021-12-17 13:30:06.835  INFO 13760 --- [main] c.j.s.s.postconstruct.ComponentOne       : ComponentOne 初始化完成
+2021-12-17 13:30:06.841  INFO 13760 --- [main] c.j.s.s.postconstruct.ComponentOne       : ComponentOne 模拟耗时逻辑开始
+2021-12-17 13:30:11.849  INFO 13760 --- [main] c.j.s.s.postconstruct.ComponentOne       : ComponentOne 模拟耗时逻辑完成
+2021-12-17 13:30:11.851  INFO 13760 --- [main] c.j.s.s.postconstruct.ComponentTwo       : ComponentTwo 初始化完成
+2021-12-17 13:30:11.856  INFO 13760 --- [main] c.j.s.s.postconstruct.ComponentTwo       : ComponentTwo 初始化完成后处理
+2021-12-17 13:30:14.728  INFO 13760 --- [main] c.j.springbootv2.springbootv2.MockTest   : Started MockTest in 13.71 seconds (JVM running for 15.838)
+2021-12-17 13:30:46.273  INFO 15628 --- [main] c.j.springbootv2.springbootv2.MockTest   : Starting MockTest using Java 1.8.0_251 on LAPTOP-E7KID4A9 with PID 15628 (started by jacle in D:\codePalace\springbootv2)
+2021-12-17 13:30:46.276  INFO 15628 --- [main] c.j.springbootv2.springbootv2.MockTest   : The following profiles are active: test
+2021-12-17 13:30:50.199  INFO 15628 --- [main] c.j.s.s.postconstruct.ComponentOne       : ComponentOne 初始化完成
+2021-12-17 13:30:50.202  INFO 15628 --- [main] c.j.s.s.postconstruct.ComponentOne       : ComponentOne 模拟耗时逻辑开始
+2021-12-17 13:30:55.207  INFO 15628 --- [main] c.j.s.s.postconstruct.ComponentOne       : ComponentOne 模拟耗时逻辑完成
+2021-12-17 13:30:55.209  INFO 15628 --- [main] c.j.s.s.postconstruct.ComponentTwo       : ComponentTwo 初始化完成
+2021-12-17 13:30:55.213  INFO 15628 --- [main] c.j.s.s.postconstruct.ComponentTwo       : ComponentTwo 初始化完成后处理
+2021-12-17 13:30:57.278  INFO 15628 --- [main] c.j.springbootv2.springbootv2.MockTest   : Started MockTest in 12.078 seconds (JVM running for 15.725)
+2021-12-17 13:40:58.620  INFO 2384 --- [main] c.j.springbootv2.springbootv2.MockTest   : Starting MockTest using Java 1.8.0_251 on LAPTOP-E7KID4A9 with PID 2384 (started by jacle in D:\codePalace\springbootv2)
+2021-12-17 13:40:58.624  INFO 2384 --- [main] c.j.springbootv2.springbootv2.MockTest   : The following profiles are active: test
+2021-12-17 13:41:02.062  INFO 2384 --- [main] c.j.s.s.postconstruct.ComponentOne       : ComponentOne 初始化完成
+2021-12-17 13:41:02.066  INFO 2384 --- [main] c.j.s.s.postconstruct.ComponentOne       : ComponentOne 模拟耗时逻辑开始
+2021-12-17 13:41:07.074  INFO 2384 --- [main] c.j.s.s.postconstruct.ComponentOne       : ComponentOne 模拟耗时逻辑完成
+2021-12-17 13:41:07.076  INFO 2384 --- [main] c.j.s.s.postconstruct.ComponentTwo       : ComponentTwo 初始化完成
+2021-12-17 13:41:07.082  INFO 2384 --- [main] c.j.s.s.postconstruct.ComponentTwo       : ComponentTwo 初始化完成后处理
+2021-12-17 13:41:08.860  INFO 2384 --- [main] c.j.springbootv2.springbootv2.MockTest   : Started MockTest in 11.43 seconds (JVM running for 13.515)
+2021-12-17 13:47:14.493  INFO 19308 --- [main] c.j.springbootv2.springbootv2.MockTest   : Starting MockTest using Java 1.8.0_251 on LAPTOP-E7KID4A9 with PID 19308 (started by jacle in D:\codePalace\springbootv2)
+2021-12-17 13:47:14.496  INFO 19308 --- [main] c.j.springbootv2.springbootv2.MockTest   : The following profiles are active: test
+2021-12-17 13:47:16.670  INFO 19308 --- [main] c.j.s.s.postconstruct.ComponentOne       : ComponentOne 初始化完成
+2021-12-17 13:47:16.673  INFO 19308 --- [main] c.j.s.s.postconstruct.ComponentOne       : ComponentOne 模拟耗时逻辑开始
+2021-12-17 13:47:21.684  INFO 19308 --- [main] c.j.s.s.postconstruct.ComponentOne       : ComponentOne 模拟耗时逻辑完成
+2021-12-17 13:47:21.685  INFO 19308 --- [main] c.j.s.s.postconstruct.ComponentTwo       : ComponentTwo 初始化完成
+2021-12-17 13:47:21.687  INFO 19308 --- [main] c.j.s.s.postconstruct.ComponentTwo       : ComponentTwo 初始化完成后处理
+2021-12-17 13:47:22.959  INFO 19308 --- [main] c.j.springbootv2.springbootv2.MockTest   : Started MockTest in 9.3 seconds (JVM running for 10.851)
+2021-12-17 13:48:08.367  INFO 14664 --- [main] c.j.springbootv2.springbootv2.MockTest   : Starting MockTest using Java 1.8.0_251 on LAPTOP-E7KID4A9 with PID 14664 (started by jacle in D:\codePalace\springbootv2)
+2021-12-17 13:48:08.371  INFO 14664 --- [main] c.j.springbootv2.springbootv2.MockTest   : The following profiles are active: test
+2021-12-17 13:48:10.882  INFO 14664 --- [main] c.j.s.s.postconstruct.ComponentOne       : ComponentOne 初始化完成
+2021-12-17 13:48:10.885  INFO 14664 --- [main] c.j.s.s.postconstruct.ComponentOne       : ComponentOne 模拟耗时逻辑开始
+2021-12-17 13:48:15.897  INFO 14664 --- [main] c.j.s.s.postconstruct.ComponentOne       : ComponentOne 模拟耗时逻辑完成
+2021-12-17 13:48:15.898  INFO 14664 --- [main] c.j.s.s.postconstruct.ComponentTwo       : ComponentTwo 初始化完成
+2021-12-17 13:48:15.902  INFO 14664 --- [main] c.j.s.s.postconstruct.ComponentTwo       : ComponentTwo 初始化完成后处理
+2021-12-17 13:48:17.186  INFO 14664 --- [main] c.j.springbootv2.springbootv2.MockTest   : Started MockTest in 9.654 seconds (JVM running for 11.416)
+2021-12-17 13:50:50.774  INFO 7860 --- [main] c.j.springbootv2.springbootv2.MockTest   : Starting MockTest using Java 1.8.0_251 on LAPTOP-E7KID4A9 with PID 7860 (started by jacle in D:\codePalace\springbootv2)
+2021-12-17 13:50:50.778  INFO 7860 --- [main] c.j.springbootv2.springbootv2.MockTest   : The following profiles are active: test
+2021-12-17 13:50:53.472  INFO 7860 --- [main] c.j.s.s.postconstruct.ComponentOne       : ComponentOne 初始化完成
+2021-12-17 13:50:53.475  INFO 7860 --- [main] c.j.s.s.postconstruct.ComponentOne       : ComponentOne 模拟耗时逻辑开始
+2021-12-17 13:50:58.485  INFO 7860 --- [main] c.j.s.s.postconstruct.ComponentOne       : ComponentOne 模拟耗时逻辑完成
+2021-12-17 13:50:58.486  INFO 7860 --- [main] c.j.s.s.postconstruct.ComponentTwo       : ComponentTwo 初始化完成
+2021-12-17 13:50:58.490  INFO 7860 --- [main] c.j.s.s.postconstruct.ComponentTwo       : ComponentTwo 初始化完成后处理
+2021-12-17 13:50:59.681  INFO 7860 --- [main] c.j.springbootv2.springbootv2.MockTest   : Started MockTest in 9.74 seconds (JVM running for 11.158)
+2021-12-17 13:51:14.371  INFO 8328 --- [main] c.j.springbootv2.springbootv2.MockTest   : Starting MockTest using Java 1.8.0_251 on LAPTOP-E7KID4A9 with PID 8328 (started by jacle in D:\codePalace\springbootv2)
+2021-12-17 13:51:14.374  INFO 8328 --- [main] c.j.springbootv2.springbootv2.MockTest   : The following profiles are active: test
+2021-12-17 13:51:16.821  INFO 8328 --- [main] c.j.s.s.postconstruct.ComponentOne       : ComponentOne 初始化完成
+2021-12-17 13:51:16.824  INFO 8328 --- [main] c.j.s.s.postconstruct.ComponentOne       : ComponentOne 模拟耗时逻辑开始
+2021-12-17 13:51:21.837  INFO 8328 --- [main] c.j.s.s.postconstruct.ComponentOne       : ComponentOne 模拟耗时逻辑完成
+2021-12-17 13:51:21.838  INFO 8328 --- [main] c.j.s.s.postconstruct.ComponentTwo       : ComponentTwo 初始化完成
+2021-12-17 13:51:21.842  INFO 8328 --- [main] c.j.s.s.postconstruct.ComponentTwo       : ComponentTwo 初始化完成后处理
+2021-12-17 13:51:23.194  INFO 8328 --- [main] c.j.springbootv2.springbootv2.MockTest   : Started MockTest in 9.761 seconds (JVM running for 11.683)
+2021-12-17 13:51:38.339  INFO 7344 --- [main] c.j.springbootv2.springbootv2.MockTest   : Starting MockTest using Java 1.8.0_251 on LAPTOP-E7KID4A9 with PID 7344 (started by jacle in D:\codePalace\springbootv2)
+2021-12-17 13:51:38.342  INFO 7344 --- [main] c.j.springbootv2.springbootv2.MockTest   : The following profiles are active: test
+2021-12-17 13:51:40.858  INFO 7344 --- [main] c.j.s.s.postconstruct.ComponentOne       : ComponentOne 初始化完成
+2021-12-17 13:51:40.861  INFO 7344 --- [main] c.j.s.s.postconstruct.ComponentOne       : ComponentOne 模拟耗时逻辑开始
+2021-12-17 13:51:45.864  INFO 7344 --- [main] c.j.s.s.postconstruct.ComponentOne       : ComponentOne 模拟耗时逻辑完成
+2021-12-17 13:51:45.865  INFO 7344 --- [main] c.j.s.s.postconstruct.ComponentTwo       : ComponentTwo 初始化完成
+2021-12-17 13:51:45.870  INFO 7344 --- [main] c.j.s.s.postconstruct.ComponentTwo       : ComponentTwo 初始化完成后处理
+2021-12-17 13:51:47.259  INFO 7344 --- [main] c.j.springbootv2.springbootv2.MockTest   : Started MockTest in 9.909 seconds (JVM running for 11.887)
+2021-12-17 14:00:42.528  INFO 17072 --- [main] c.j.springbootv2.springbootv2.MockTest   : Starting MockTest using Java 1.8.0_251 on LAPTOP-E7KID4A9 with PID 17072 (started by jacle in D:\codePalace\springbootv2)
+2021-12-17 14:00:42.532  INFO 17072 --- [main] c.j.springbootv2.springbootv2.MockTest   : The following profiles are active: test
+2021-12-17 14:00:45.554  INFO 17072 --- [main] c.j.s.s.postconstruct.ComponentOne       : ComponentOne 初始化完成
+2021-12-17 14:00:45.557  INFO 17072 --- [main] c.j.s.s.postconstruct.ComponentOne       : ComponentOne 模拟耗时逻辑开始
+2021-12-17 14:00:50.566  INFO 17072 --- [main] c.j.s.s.postconstruct.ComponentOne       : ComponentOne 模拟耗时逻辑完成
+2021-12-17 14:00:50.567  INFO 17072 --- [main] c.j.s.s.postconstruct.ComponentTwo       : ComponentTwo 初始化完成
+2021-12-17 14:00:50.572  INFO 17072 --- [main] c.j.s.s.postconstruct.ComponentTwo       : ComponentTwo 初始化完成后处理
+2021-12-17 14:00:51.792  INFO 17072 --- [main] c.j.springbootv2.springbootv2.MockTest   : Started MockTest in 10.155 seconds (JVM running for 11.782)
+2021-12-17 14:08:50.369  INFO 23732 --- [main] c.j.springbootv2.springbootv2.MockTest   : Starting MockTest using Java 1.8.0_251 on LAPTOP-E7KID4A9 with PID 23732 (started by jacle in D:\codePalace\springbootv2)
+2021-12-17 14:08:50.372  INFO 23732 --- [main] c.j.springbootv2.springbootv2.MockTest   : The following profiles are active: test
+2021-12-17 14:08:53.522  INFO 23732 --- [main] c.j.s.s.postconstruct.ComponentOne       : ComponentOne 初始化完成
+2021-12-17 14:08:53.526  INFO 23732 --- [main] c.j.s.s.postconstruct.ComponentOne       : ComponentOne 模拟耗时逻辑开始
+2021-12-17 14:08:58.535  INFO 23732 --- [main] c.j.s.s.postconstruct.ComponentOne       : ComponentOne 模拟耗时逻辑完成
+2021-12-17 14:08:58.536  INFO 23732 --- [main] c.j.s.s.postconstruct.ComponentTwo       : ComponentTwo 初始化完成
+2021-12-17 14:08:58.541  INFO 23732 --- [main] c.j.s.s.postconstruct.ComponentTwo       : ComponentTwo 初始化完成后处理
+2021-12-17 14:08:59.798  INFO 23732 --- [main] c.j.springbootv2.springbootv2.MockTest   : Started MockTest in 10.3 seconds (JVM running for 11.807)
+2021-12-17 14:09:24.538  INFO 22828 --- [main] c.j.springbootv2.springbootv2.MockTest   : Starting MockTest using Java 1.8.0_251 on LAPTOP-E7KID4A9 with PID 22828 (started by jacle in D:\codePalace\springbootv2)
+2021-12-17 14:09:24.540  INFO 22828 --- [main] c.j.springbootv2.springbootv2.MockTest   : The following profiles are active: test
+2021-12-17 14:09:27.319  INFO 22828 --- [main] c.j.s.s.postconstruct.ComponentOne       : ComponentOne 初始化完成
+2021-12-17 14:09:27.323  INFO 22828 --- [main] c.j.s.s.postconstruct.ComponentOne       : ComponentOne 模拟耗时逻辑开始
+2021-12-17 14:09:32.330  INFO 22828 --- [main] c.j.s.s.postconstruct.ComponentOne       : ComponentOne 模拟耗时逻辑完成
+2021-12-17 14:09:32.331  INFO 22828 --- [main] c.j.s.s.postconstruct.ComponentTwo       : ComponentTwo 初始化完成
+2021-12-17 14:09:32.335  INFO 22828 --- [main] c.j.s.s.postconstruct.ComponentTwo       : ComponentTwo 初始化完成后处理
+2021-12-17 14:09:33.588  INFO 22828 --- [main] c.j.springbootv2.springbootv2.MockTest   : Started MockTest in 9.903 seconds (JVM running for 11.312)
+2021-12-17 15:08:37.956  INFO 19592 --- [main] c.j.springbootv2.springbootv2.MockTest   : Starting MockTest using Java 1.8.0_251 on LAPTOP-E7KID4A9 with PID 19592 (started by jacle in D:\codePalace\springbootv2)
+2021-12-17 15:08:37.961  INFO 19592 --- [main] c.j.springbootv2.springbootv2.MockTest   : The following profiles are active: test
+2021-12-17 15:08:40.284  INFO 19592 --- [main] c.j.s.s.postconstruct.ComponentOne       : ComponentOne 初始化完成
+2021-12-17 15:08:40.288  INFO 19592 --- [main] c.j.s.s.postconstruct.ComponentOne       : ComponentOne 模拟耗时逻辑开始
+2021-12-17 15:08:45.289  INFO 19592 --- [main] c.j.s.s.postconstruct.ComponentOne       : ComponentOne 模拟耗时逻辑完成
+2021-12-17 15:08:45.290  INFO 19592 --- [main] c.j.s.s.postconstruct.ComponentTwo       : ComponentTwo 初始化完成
+2021-12-17 15:08:45.294  INFO 19592 --- [main] c.j.s.s.postconstruct.ComponentTwo       : ComponentTwo 初始化完成后处理
+2021-12-17 15:08:46.742  INFO 19592 --- [main] c.j.springbootv2.springbootv2.MockTest   : Started MockTest in 9.668 seconds (JVM running for 11.404)
+2021-12-17 16:28:48.883  INFO 22740 --- [main] c.j.springbootv2.springbootv2.MockTest   : Starting MockTest using Java 1.8.0_251 on LAPTOP-E7KID4A9 with PID 22740 (started by jacle in D:\codePalace\springbootv2)
+2021-12-17 16:28:48.891  INFO 22740 --- [main] c.j.springbootv2.springbootv2.MockTest   : The following profiles are active: test
+2021-12-17 16:28:52.994  INFO 22740 --- [main] c.j.s.s.postconstruct.ComponentOne       : ComponentOne 初始化完成
+2021-12-17 16:28:52.999  INFO 22740 --- [main] c.j.s.s.postconstruct.ComponentOne       : ComponentOne 模拟耗时逻辑开始
+2021-12-17 16:28:58.013  INFO 22740 --- [main] c.j.s.s.postconstruct.ComponentOne       : ComponentOne 模拟耗时逻辑完成
+2021-12-17 16:28:58.014  INFO 22740 --- [main] c.j.s.s.postconstruct.ComponentTwo       : ComponentTwo 初始化完成
+2021-12-17 16:28:58.019  INFO 22740 --- [main] c.j.s.s.postconstruct.ComponentTwo       : ComponentTwo 初始化完成后处理
+2021-12-17 16:28:59.965  INFO 22740 --- [main] c.j.springbootv2.springbootv2.MockTest   : Started MockTest in 12.166 seconds (JVM running for 14.55)
+2021-12-17 16:29:35.106  INFO 15412 --- [main] c.j.springbootv2.springbootv2.MockTest   : Starting MockTest using Java 1.8.0_251 on LAPTOP-E7KID4A9 with PID 15412 (started by jacle in D:\codePalace\springbootv2)
+2021-12-17 16:29:35.110  INFO 15412 --- [main] c.j.springbootv2.springbootv2.MockTest   : The following profiles are active: test
+2021-12-17 16:29:38.603  INFO 15412 --- [main] c.j.s.s.postconstruct.ComponentOne       : ComponentOne 初始化完成
+2021-12-17 16:29:38.607  INFO 15412 --- [main] c.j.s.s.postconstruct.ComponentOne       : ComponentOne 模拟耗时逻辑开始
+2021-12-17 16:29:43.613  INFO 15412 --- [main] c.j.s.s.postconstruct.ComponentOne       : ComponentOne 模拟耗时逻辑完成
+2021-12-17 16:29:43.615  INFO 15412 --- [main] c.j.s.s.postconstruct.ComponentTwo       : ComponentTwo 初始化完成
+2021-12-17 16:29:43.619  INFO 15412 --- [main] c.j.s.s.postconstruct.ComponentTwo       : ComponentTwo 初始化完成后处理
+2021-12-17 16:29:45.390  INFO 15412 --- [main] c.j.springbootv2.springbootv2.MockTest   : Started MockTest in 11.418 seconds (JVM running for 13.657)
+2021-12-17 16:55:39.018  INFO 1344 --- [main] c.j.springbootv2.springbootv2.MockTest   : Starting MockTest using Java 1.8.0_251 on LAPTOP-E7KID4A9 with PID 1344 (started by jacle in D:\codePalace\springbootv2)
+2021-12-17 16:55:39.022  INFO 1344 --- [main] c.j.springbootv2.springbootv2.MockTest   : The following profiles are active: test
+2021-12-17 16:55:42.894  INFO 1344 --- [main] c.j.s.s.postconstruct.ComponentOne       : ComponentOne 初始化完成
+2021-12-17 16:55:42.900  INFO 1344 --- [main] c.j.s.s.postconstruct.ComponentOne       : ComponentOne 模拟耗时逻辑开始
+2021-12-17 16:55:47.908  INFO 1344 --- [main] c.j.s.s.postconstruct.ComponentOne       : ComponentOne 模拟耗时逻辑完成
+2021-12-17 16:55:47.909  INFO 1344 --- [main] c.j.s.s.postconstruct.ComponentTwo       : ComponentTwo 初始化完成
+2021-12-17 16:55:47.914  INFO 1344 --- [main] c.j.s.s.postconstruct.ComponentTwo       : ComponentTwo 初始化完成后处理
+2021-12-17 16:55:49.693  INFO 1344 --- [main] c.j.springbootv2.springbootv2.MockTest   : Started MockTest in 11.96 seconds (JVM running for 14.212)
+2021-12-17 16:56:37.906  INFO 19172 --- [main] c.j.springbootv2.springbootv2.MockTest   : Starting MockTest using Java 1.8.0_251 on LAPTOP-E7KID4A9 with PID 19172 (started by jacle in D:\codePalace\springbootv2)
+2021-12-17 16:56:37.910  INFO 19172 --- [main] c.j.springbootv2.springbootv2.MockTest   : The following profiles are active: test
+2021-12-17 16:56:42.192  INFO 19172 --- [main] c.j.s.s.postconstruct.ComponentOne       : ComponentOne 初始化完成
+2021-12-17 16:56:42.196  INFO 19172 --- [main] c.j.s.s.postconstruct.ComponentOne       : ComponentOne 模拟耗时逻辑开始
+2021-12-17 16:56:47.209  INFO 19172 --- [main] c.j.s.s.postconstruct.ComponentOne       : ComponentOne 模拟耗时逻辑完成
+2021-12-17 16:56:47.212  INFO 19172 --- [main] c.j.s.s.postconstruct.ComponentTwo       : ComponentTwo 初始化完成
+2021-12-17 16:56:47.217  INFO 19172 --- [main] c.j.s.s.postconstruct.ComponentTwo       : ComponentTwo 初始化完成后处理
+2021-12-17 16:56:49.130  INFO 19172 --- [main] c.j.springbootv2.springbootv2.MockTest   : Started MockTest in 12.356 seconds (JVM running for 14.783)

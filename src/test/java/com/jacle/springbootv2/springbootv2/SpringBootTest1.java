@@ -1,6 +1,6 @@
 package com.jacle.springbootv2.springbootv2;
 
-import junit.framework.TestCase;
+import com.jacle.springbootv2.springbootv2.utils.PropertiesReaderUtil;
 import org.junit.Before;
 import org.junit.Test;
 import org.slf4j.Logger;
@@ -10,6 +10,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.web.client.TestRestTemplate;
 import org.springframework.boot.web.server.LocalServerPort;
 import org.springframework.http.ResponseEntity;
+import org.springframework.web.context.WebApplicationContext;
 
 import java.net.URL;
 
@@ -38,6 +39,9 @@ public class SpringBootTest1 extends BaseTest
 	@Autowired
 	private TestRestTemplate restTemplate;
 
+	@Autowired
+	private WebApplicationContext context;
+
 	@Before
 	public void setUp() throws Exception
 	{
@@ -54,17 +58,23 @@ public class SpringBootTest1 extends BaseTest
 	@Test
 	public void testUrlApi() throws Exception
 	{
-		String url = this.base.toString() + "/hello";
+		String url = this.base.toString() + "/spv2/hello";
 		logger.info("待测试接口地址：url=" + url);
 		ResponseEntity<String> response = this.restTemplate.getForEntity(url, String.class, "");
 		String result = response.getBody();
 		logger.info("返回结果：result=" + result);
-		boolean expected = false;
-		if (result != null && result.contains("sprint-boot2-autotest"))
-		{
-			expected = true;
-		}
-		TestCase.assertEquals(true, expected);
+
+		// 测试webcontext对象
+		PropertiesReaderUtil util = (PropertiesReaderUtil) context.getBean("propertiesReaderUtil");
+		System.out.println("返回结果：data="+util.getName() + "," + util.getAge());
+
+		/*
+		 * boolean expected = false;
+		 * 
+		 * if (result != null && result.contains("sprint-boot2-autotest")) { expected =
+		 * true; } TestCase.assertEquals(true, expected);
+		 */
+
 	}
 
 }
