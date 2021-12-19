@@ -32,11 +32,11 @@
    - 耗时长的逻辑如果放在@PostConstruct方法中，可使用独立线程执行
    - 初始化操作放在CommandLineRunner或ApplicationRunner的实现组件中
    
-7、lifecycle和smartlifecycle区别
+7. lifecycle和smartlifecycle区别
     - 共同点，都是加载所有的bean完成之后执行固定的操作
     - 是在容器本身的生命周期进行处理，postconstruct,predestory都是在bean的生命周期上进行处理
     
-8、application runner和commandline runner
+8. application runner和commandline runner
    - 两者接收到的参数不一样crunner是原始类型未封装
    - app runner优先于command runner运行
    
@@ -45,11 +45,17 @@
        - 两者的区别在哪
        - 多个CommandLineRunner 执行顺序问题
        
-9、spring的自动配置
-     Spring Boot启动的时候会通过@EnableAutoConfiguration注解找到META-INF/spring.factories配置文件中的所有自动配置类，并对其进行加载；
+9. spring的自动配置
+     > Spring Boot启动的时候会通过@EnableAutoConfiguration注解找到META-INF/spring.factories配置文件中的所有自动配置类，并对其进行加载；
    而这些自动配置类都是以AutoConfiguration结尾来命名的。它们实际上就是一个JavaConfig形式的Spring容器配置类，
    这些配置类通过寻找以Properties结尾命名的类，进而取得在全局配置文件中配置的属性，如：server.port。
    然后XxxProperties类再通过@ConfigurationProperties注解与全局配置文件中对应的属性进行绑定。
         
+10. > Bean 的生命周期概括起来就是 4 个阶段：
+      
+      实例化（Instantiation）
+      属性赋值（Populate）
+      初始化（Initialization）
+      销毁（Destruction）
  
         
