@@ -57,5 +57,13 @@
       属性赋值（Populate）
       初始化（Initialization）
       销毁（Destruction）
+      
+11.web开发两种方式
+   
+   1. 前后端分离，restful接口对接
+   2. 使用内置的模板开发web应用
+   
+   >内置模板，指的是后端模板，前端模板是js解析页面html标记；
+   >后端模板表示的是解析标记，填充数据，最终返回的是html页面；
  
         

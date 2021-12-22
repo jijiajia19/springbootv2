@@ -1,34 +1,17 @@
-2021-12-21 14:29:32.921  INFO 13056 --- [restartedMain] c.j.s.s.Springbootv2Application          : Starting Springbootv2Application using Java 1.8.0_131 on LAPTOP-O12KLVJG with PID 13056 (D:\workspaces\springbootv2\target\classes started by Jacle in D:\workspaces\springbootv2)
-2021-12-21 14:29:32.925  INFO 13056 --- [restartedMain] c.j.s.s.Springbootv2Application          : The following profiles are active: test
-2021-12-21 14:29:32.957  INFO 13056 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2021-12-21 14:29:32.957  INFO 13056 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2021-12-21 14:29:33.628  INFO 13056 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8088 (http)
-2021-12-21 14:29:33.634  INFO 13056 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2021-12-21 14:29:33.634  INFO 13056 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
-2021-12-21 14:29:33.694  INFO 13056 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/spv2]   : Initializing Spring embedded WebApplicationContext
-2021-12-21 14:29:33.694  INFO 13056 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 736 ms
-2021-12-21 14:29:33.795  INFO 13056 --- [restartedMain] c.j.s.s.postconstruct.ComponentOne       : ComponentOne 初始化完成
-2021-12-21 14:29:33.796  INFO 13056 --- [restartedMain] c.j.s.s.postconstruct.ComponentOne       : ComponentOne 模拟耗时逻辑开始
-2021-12-21 14:29:38.804  INFO 13056 --- [restartedMain] c.j.s.s.postconstruct.ComponentOne       : ComponentOne 模拟耗时逻辑完成
-2021-12-21 14:29:38.805  INFO 13056 --- [restartedMain] c.j.s.s.postconstruct.ComponentTwo       : ComponentTwo 初始化完成
-2021-12-21 14:29:38.807  INFO 13056 --- [restartedMain] c.j.s.s.postconstruct.ComponentTwo       : ComponentTwo 初始化完成后处理
-2021-12-21 14:29:39.081  INFO 13056 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35769
-2021-12-21 14:29:39.104  INFO 13056 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8088 (http) with context path '/spv2'
-2021-12-21 14:29:39.111  INFO 13056 --- [restartedMain] c.j.s.s.Springbootv2Application          : Started Springbootv2Application in 6.59 seconds (JVM running for 7.573)
-2021-12-21 14:30:23.201  INFO 20908 --- [restartedMain] c.j.s.s.Springbootv2Application          : Starting Springbootv2Application using Java 1.8.0_131 on LAPTOP-O12KLVJG with PID 20908 (D:\workspaces\springbootv2\target\classes started by Jacle in D:\workspaces\springbootv2)
-2021-12-21 14:30:23.202  INFO 20908 --- [restartedMain] c.j.s.s.Springbootv2Application          : The following profiles are active: test
-2021-12-21 14:30:23.256  INFO 20908 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2021-12-21 14:30:23.257  INFO 20908 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2021-12-21 14:30:24.012  INFO 20908 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8088 (http)
-2021-12-21 14:30:24.020  INFO 20908 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2021-12-21 14:30:24.020  INFO 20908 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
-2021-12-21 14:30:24.087  INFO 20908 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/spv2]   : Initializing Spring embedded WebApplicationContext
-2021-12-21 14:30:24.087  INFO 20908 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 830 ms
-2021-12-21 14:30:24.200  INFO 20908 --- [restartedMain] c.j.s.s.postconstruct.ComponentOne       : ComponentOne 初始化完成
-2021-12-21 14:30:24.200  INFO 20908 --- [restartedMain] c.j.s.s.postconstruct.ComponentOne       : ComponentOne 模拟耗时逻辑开始
-2021-12-21 14:30:29.203  INFO 20908 --- [restartedMain] c.j.s.s.postconstruct.ComponentOne       : ComponentOne 模拟耗时逻辑完成
-2021-12-21 14:30:29.204  INFO 20908 --- [restartedMain] c.j.s.s.postconstruct.ComponentTwo       : ComponentTwo 初始化完成
-2021-12-21 14:30:29.206  INFO 20908 --- [restartedMain] c.j.s.s.postconstruct.ComponentTwo       : ComponentTwo 初始化完成后处理
-2021-12-21 14:30:29.398  INFO 20908 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35769
-2021-12-21 14:30:29.421  INFO 20908 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8088 (http) with context path '/spv2'
-2021-12-21 14:30:29.430  INFO 20908 --- [restartedMain] c.j.s.s.Springbootv2Application          : Started Springbootv2Application in 6.629 seconds (JVM running for 7.277)
+2021-12-22 09:43:54.007  INFO 19560 --- [main] c.j.s.s.Springbootv2Application          : Starting Springbootv2Application using Java 1.8.0_131 on LAPTOP-O12KLVJG with PID 19560 (D:\workspaces\springbootv2\target\classes started by Jacle in D:\workspaces\springbootv2)
+2021-12-22 09:43:54.011  INFO 19560 --- [main] c.j.s.s.Springbootv2Application          : The following profiles are active: test
+2021-12-22 09:43:54.093  INFO 19560 --- [main] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-12-22 09:43:54.093  INFO 19560 --- [main] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-12-22 09:43:55.821  INFO 19560 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8088 (http)
+2021-12-22 09:43:55.860  INFO 19560 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-12-22 09:43:55.860  INFO 19560 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2021-12-22 09:43:55.996  INFO 19560 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/spv2]   : Initializing Spring embedded WebApplicationContext
+2021-12-22 09:43:55.996  INFO 19560 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1901 ms
+2021-12-22 09:43:56.435  INFO 19560 --- [main] c.j.s.s.postconstruct.ComponentOne       : ComponentOne 初始化完成
+2021-12-22 09:43:56.436  INFO 19560 --- [main] c.j.s.s.postconstruct.ComponentOne       : ComponentOne 模拟耗时逻辑开始
+2021-12-22 09:44:01.443  INFO 19560 --- [main] c.j.s.s.postconstruct.ComponentOne       : ComponentOne 模拟耗时逻辑完成
+2021-12-22 09:44:01.445  INFO 19560 --- [main] c.j.s.s.postconstruct.ComponentTwo       : ComponentTwo 初始化完成
+2021-12-22 09:44:01.447  INFO 19560 --- [main] c.j.s.s.postconstruct.ComponentTwo       : ComponentTwo 初始化完成后处理
+2021-12-22 09:44:01.936  INFO 19560 --- [main] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35769
+2021-12-22 09:44:01.976  INFO 19560 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8088 (http) with context path '/spv2'
+2021-12-22 09:44:01.990  INFO 19560 --- [main] c.j.s.s.Springbootv2Application          : Started Springbootv2Application in 9.273 seconds (JVM running for 19.494)
