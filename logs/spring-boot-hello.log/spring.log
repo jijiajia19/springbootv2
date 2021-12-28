@@ -229,3 +229,20 @@
 2021-12-18 22:28:51.538  INFO 25444 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35769
 2021-12-18 22:28:51.584  INFO 25444 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8088 (http) with context path '/spv2'
 2021-12-18 22:28:51.598  INFO 25444 --- [restartedMain] c.j.s.s.Springbootv2Application          : Started Springbootv2Application in 8.778 seconds (JVM running for 10.432)
+2021-12-18 22:34:51.969  INFO 264 --- [restartedMain] c.j.s.s.Springbootv2Application          : Starting Springbootv2Application using Java 1.8.0_251 on LAPTOP-E7KID4A9 with PID 264 (D:\codePalace\springbootv2\target\classes started by jacle in D:\codePalace\springbootv2)
+2021-12-18 22:34:51.971  INFO 264 --- [restartedMain] c.j.s.s.Springbootv2Application          : The following profiles are active: test
+2021-12-18 22:34:52.059  INFO 264 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-12-18 22:34:52.059  INFO 264 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-12-18 22:34:53.597  INFO 264 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8088 (http)
+2021-12-18 22:34:53.612  INFO 264 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-12-18 22:34:53.613  INFO 264 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2021-12-18 22:34:53.774  INFO 264 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/spv2]   : Initializing Spring embedded WebApplicationContext
+2021-12-18 22:34:53.774  INFO 264 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1714 ms
+2021-12-18 22:34:54.050  INFO 264 --- [restartedMain] c.j.s.s.postconstruct.ComponentOne       : ComponentOne 初始化完成
+2021-12-18 22:34:54.050  INFO 264 --- [restartedMain] c.j.s.s.postconstruct.ComponentOne       : ComponentOne 模拟耗时逻辑开始
+2021-12-18 22:34:59.065  INFO 264 --- [restartedMain] c.j.s.s.postconstruct.ComponentOne       : ComponentOne 模拟耗时逻辑完成
+2021-12-18 22:34:59.066  INFO 264 --- [restartedMain] c.j.s.s.postconstruct.ComponentTwo       : ComponentTwo 初始化完成
+2021-12-18 22:34:59.067  INFO 264 --- [restartedMain] c.j.s.s.postconstruct.ComponentTwo       : ComponentTwo 初始化完成后处理
+2021-12-18 22:34:59.474  INFO 264 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35769
+2021-12-18 22:34:59.514  INFO 264 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8088 (http) with context path '/spv2'
+2021-12-18 22:34:59.528  INFO 264 --- [restartedMain] c.j.s.s.Springbootv2Application          : Started Springbootv2Application in 8.363 seconds (JVM running for 9.881)
